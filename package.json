@@ -1,0 +1,25 @@
+{
+  "name": "testing-app-vercel",
+  "version": "1.0.0",
+  "description": "a testing app for vercel hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "chrezalvin",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9"
+  }
+}
